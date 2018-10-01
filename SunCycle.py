@@ -145,7 +145,7 @@ class SunCycle():
     def __init__(self):
         self.dayPart = None
         self.halt = False
-        sublime.set_timeout(self.start, 500) # delay execution so settings can load
+        sublime.set_timeout_async(self.start, 500) # delay execution so settings can load
 
     def getDayOrNight(self):
         sun = self.settings.getSun()
