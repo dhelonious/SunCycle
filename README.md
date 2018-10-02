@@ -19,11 +19,11 @@ Install with [Package Control](https://sublime.wbond.net/).
 ```json
 {
     "day": {
-	      "color_scheme": "Packages/Color Scheme - Default/Sixteen.sublime-color-scheme",
+        "color_scheme": "Packages/Color Scheme - Default/Sixteen.sublime-color-scheme",
         "theme": "Default.sublime-theme"
     },
     "night": {
-	      "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+        "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
         "theme": "Default.sublime-theme"
     }
 }
