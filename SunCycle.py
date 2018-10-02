@@ -9,7 +9,7 @@ from .timezone import FixedOffset,UTC
 
 from .package_control_download_wrapper import fetch
 
-INTERVAL = 0.3 # interval in minutes to do new cycle check
+INTERVAL = 1 # interval in minutes to do new cycle check
 
 TZ_URL = 'https://maps.googleapis.com/maps/api/timezone/json?location={0[latitude]},{0[longitude]}&timestamp={1}&sensor=false'
 TZ_CACHE_LIFETIME = timedelta(days=1)
